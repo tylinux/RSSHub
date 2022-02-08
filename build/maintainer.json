@@ -558,6 +558,33 @@
     "/javdb/:category?/:sort?/:filter?": [
         "nczitzk"
     ],
+    "/javlibrary/bestrated/:language?/:mode?": [
+        "nczitzk"
+    ],
+    "/javlibrary/bestreviews/:language?/:mode?": [
+        "nczitzk"
+    ],
+    "/javlibrary/genre/:genre?/:language?/:mode?": [
+        "nczitzk"
+    ],
+    "/javlibrary/mostwanted/:language?/:mode?": [
+        "nczitzk"
+    ],
+    "/javlibrary/newentries/:language?": [
+        "nczitzk"
+    ],
+    "/javlibrary/newrelease/:language?/:mode?": [
+        "nczitzk"
+    ],
+    "/javlibrary/star/:id/:language?/:mode?": [
+        "nczitzk"
+    ],
+    "/javlibrary/update/:language?": [
+        "nczitzk"
+    ],
+    "/javlibrary/:type/:id/:language?": [
+        "nczitzk"
+    ],
     "/jisilu/:category?/:sort?/:day?": [
         "nczitzk"
     ],
@@ -752,6 +779,9 @@
     ],
     "/pku/hr/:category?": [
         "nczitzk"
+    ],
+    "/polkaworld/polkaworld/newest": [
+        "iceqing"
     ],
     "/producthunt/today": [
         "miaoyafeng",
@@ -1323,6 +1353,7 @@
     "/wechat/wxnmh/:id": [],
     "/wechat/mp/homepage/:biz/:hid/:cid?": [],
     "/wechat/mp/msgalbum/:biz/:aid": [],
+    "/wechat/feeds/:id": [],
     "/atfd/:locations/:nearby?": [],
     "/fir/update/:id": [],
     "/nvidia/webdriverupdate": [],
@@ -2265,10 +2296,6 @@
     "/mqube/top": [],
     "/letterboxd/user/diary/:username": [],
     "/letterboxd/user/followingdiary/:username": [],
-    "/javlibrary/users/:uid/:utype": [],
-    "/javlibrary/videos/:vtype": [],
-    "/javlibrary/stars/:sid": [],
-    "/javlibrary/bestreviews": [],
     "/lastfm/recent/:user": [],
     "/lastfm/loved/:user": [],
     "/lastfm/top/:country?": [],
