@@ -1323,7 +1323,6 @@
     "/wechat/wxnmh/:id": [],
     "/wechat/mp/homepage/:biz/:hid/:cid?": [],
     "/wechat/mp/msgalbum/:biz/:aid": [],
-    "/wechat/feeds/:id": [],
     "/atfd/:locations/:nearby?": [],
     "/fir/update/:id": [],
     "/nvidia/webdriverupdate": [],
