@@ -290,6 +290,12 @@ Subscribe to the updates (threads and submission) from a paritcular Hacker News 
 
 <RouteEn author="hellodword" example="/hex-rays/news" path="/hex-rays/news" />
 
+## Hugging Face
+
+### Blog
+
+<RouteEn author="tylinux" example="/huggingface/blog" path="/huggingface/blog"/>
+
 ## Issue Hunt
 
 ### Project Funded
