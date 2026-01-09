@@ -150,8 +150,8 @@ importers:
         specifier: 0.7.2
         version: 0.7.2
       imapflow:
-        specifier: 1.1.1
-        version: 1.1.1
+        specifier: 1.2.4
+        version: 1.2.4
       instagram-private-api:
         specifier: 1.46.1
         version: 1.46.1
@@ -2690,9 +2690,6 @@ packages:
   '@vitest/utils@4.0.9':
     resolution: {integrity: sha512-cEol6ygTzY4rUPvNZM19sDf7zGa35IYTm9wfzkHoT/f5jX10IOY7QleWSOh5T0e3I3WVozwK5Asom79qW8DiuQ==}
 
-  '@zone-eu/mailsplit@5.4.7':
-    resolution: {integrity: sha512-jApX86aDgolMz08pP20/J2zcns02NSK3zSiYouf01QQg4250L+GUAWSWicmS7eRvs+Z7wP7QfXrnkaTBGrIpwQ==}
-
   '@zone-eu/mailsplit@5.4.8':
     resolution: {integrity: sha512-eEyACj4JZ7sjzRvy26QhLgKEMWwQbsw1+QZnlLX+/gihcNH07lVPOcnwf5U6UAL7gkc//J3jVd76o/WS+taUiA==}
 
@@ -4115,6 +4112,10 @@ packages:
     resolution: {integrity: sha512-cf6L2Ds3h57VVmkZe+Pn+5APsT7FpqJtEhhieDCvrE2MK5Qk9MyffgQyuxQTm6BChfeZNtcOLHp9IcWRVcIcBQ==}
     engines: {node: '>=0.10.0'}
 
+  iconv-lite@0.7.1:
+    resolution: {integrity: sha512-2Tth85cXwGFHfvRgZWszZSvdo+0Xsqmw8k8ZwxScfcBneNUraK+dxRxRm24nszx80Y0TVio8kKLt5sLE7ZCLlw==}
+    engines: {node: '>=0.10.0'}
+
   iconv-lite@0.7.2:
     resolution: {integrity: sha512-im9DjEDQ55s9fL4EYzOAv0yMqmMBSZp6G0VvFyTMPKWxiSBHUj9NW/qqLmXUwXrrM7AvqSlTCfvqRb0cM8yYqw==}
     engines: {node: '>=0.10.0'}
@@ -4135,8 +4136,8 @@ packages:
     engines: {node: '>=6.9.0'}
     hasBin: true
 
-  imapflow@1.1.1:
-    resolution: {integrity: sha512-cgK0eGagmw8C3pY6IiVLSF52N4bwvNRJ7mog4bdZOTafG90yNgUkShQBjo4/CRqvl/isPcaV1Gc0OmFBdXF0HQ==}
+  imapflow@1.2.4:
+    resolution: {integrity: sha512-X/eRQeje33uZycfopjwoQKKbya+bBIaqpviOFxhPOD24DXU2hMfXwYe9e8j1+ADwFVgTvKq4G2/ljjZK3Y8mvg==}
 
   import-fresh@3.3.1:
     resolution: {integrity: sha512-TR3KfrTZTYLPB6jUjfx6MF9WcWrHL9su5TObK4ZkYgBdWKPOFoSoQIdEuTuR82pmtxH2spWG9h6etwfr1pLBqQ==}
@@ -4868,12 +4869,12 @@ packages:
   node-releases@2.0.27:
     resolution: {integrity: sha512-nmh3lCkYZ3grZvqcCH+fjmQ7X+H0OeZgP40OierEaAptX4XofMh5kwNbWh7lBduUzCcV/8kZ+NDLCwm2iorIlA==}
 
-  nodemailer@7.0.10:
-    resolution: {integrity: sha512-Us/Se1WtT0ylXgNFfyFSx4LElllVLJXQjWi2Xz17xWw7amDKO2MLtFnVp1WACy7GkVGs+oBlRopVNUzlrGSw1w==}
-    engines: {node: '>=6.0.0'}
-
   nodemailer@7.0.11:
     resolution: {integrity: sha512-gnXhNRE0FNhD7wPSCGhdNh46Hs6nm+uTyg+Kq0cZukNQiYdnCsoQjodNP9BQVG9XrcK/v6/MgpAPBUFyzh9pvw==}
+    engines: {node: '>=6.0.0'}
+
+  nodemailer@7.0.12:
+    resolution: {integrity: sha512-H+rnK5bX2Pi/6ms3sN4/jRQvYSMltV6vqup/0SFOrxYYY/qoNvhXPlYq3e+Pm9RFJRwrMGbMIwi81M4dxpomhA==}
     engines: {node: '>=6.0.0'}
 
   nopt@7.2.1:
@@ -8744,12 +8745,6 @@ snapshots:
       '@vitest/pretty-format': 4.0.9
       tinyrainbow: 3.0.3
 
-  '@zone-eu/mailsplit@5.4.7':
-    dependencies:
-      libbase64: 1.3.0
-      libmime: 5.3.7
-      libqp: 2.1.1
-
   '@zone-eu/mailsplit@5.4.8':
     dependencies:
       libbase64: 1.3.0
@@ -10366,6 +10361,10 @@ snapshots:
     dependencies:
       safer-buffer: '@nolyfill/safer-buffer@1.0.44'
 
+  iconv-lite@0.7.1:
+    dependencies:
+      safer-buffer: '@nolyfill/safer-buffer@1.0.44'
+
   iconv-lite@0.7.2:
     dependencies:
       safer-buffer: '@nolyfill/safer-buffer@1.0.44'
@@ -10378,15 +10377,15 @@ snapshots:
 
   image-size@0.7.5: {}
 
-  imapflow@1.1.1:
+  imapflow@1.2.4:
     dependencies:
-      '@zone-eu/mailsplit': 5.4.7
+      '@zone-eu/mailsplit': 5.4.8
       encoding-japanese: 2.2.0
-      iconv-lite: 0.7.0
+      iconv-lite: 0.7.1
       libbase64: 1.3.0
       libmime: 5.3.7
       libqp: 2.1.1
-      nodemailer: 7.0.10
+      nodemailer: 7.0.12
       pino: 10.1.0
       socks: 2.8.7
 
@@ -11193,9 +11192,9 @@ snapshots:
 
   node-releases@2.0.27: {}
 
-  nodemailer@7.0.10: {}
-
   nodemailer@7.0.11: {}
+
+  nodemailer@7.0.12: {}
 
   nopt@7.2.1:
     dependencies:
