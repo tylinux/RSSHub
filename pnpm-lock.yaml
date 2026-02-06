@@ -40,10 +40,10 @@ importers:
         version: 4.3.1
       '@hono/node-server':
         specifier: 1.19.9
-        version: 1.19.9(hono@4.10.8)
+        version: 1.19.9(hono@4.11.8)
       '@hono/zod-openapi':
         specifier: 1.1.6
-        version: 1.1.6(hono@4.10.8)(zod@4.1.13)
+        version: 1.1.6(hono@4.11.8)(zod@4.1.13)
       '@notionhq/client':
         specifier: 5.4.0
         version: 5.4.0
@@ -76,7 +76,7 @@ importers:
         version: 0.0.25
       '@scalar/hono-api-reference':
         specifier: 0.9.37
-        version: 0.9.37(hono@4.10.8)
+        version: 0.9.37(hono@4.11.8)
       '@sentry/node':
         specifier: 10.29.0
         version: 10.29.0
@@ -135,8 +135,8 @@ importers:
         specifier: 2.1.80
         version: 2.1.80
       hono:
-        specifier: 4.10.8
-        version: 4.10.8
+        specifier: 4.11.8
+        version: 4.11.8
       html-to-text:
         specifier: 9.0.5
         version: 9.0.5
@@ -520,8 +520,8 @@ packages:
     resolution: {integrity: sha512-lOoVRwADj8hjf7al89tvQ2a1lf53Z+7tiXMgpZJL3maQPDxh0DgLMN62B2MKUOFcoodBHLMbDM6WAbKgNy5Suw==}
     engines: {node: '>=6.9.0'}
 
-  '@babel/generator@7.29.0':
-    resolution: {integrity: sha512-vSH118/wwM/pLR38g/Sgk05sNtro6TlTJKuiMXDaZqPUfjTFcudpCOt00IhOfj+1BFAX+UFAlzCU+6WXr3GLFQ==}
+  '@babel/generator@7.29.1':
+    resolution: {integrity: sha512-qsaF+9Qcm2Qv8SRIMMscAvG4O3lJ0F1GuMo5HR/Bp02LopNgnZBC/EkbevHFeGs4ls/oPz9v+Bsmzbkbe+0dUw==}
     engines: {node: '>=6.9.0'}
 
   '@babel/helper-annotate-as-pure@7.27.3':
@@ -4110,8 +4110,8 @@ packages:
   hmacsha1@1.0.0:
     resolution: {integrity: sha512-4FP6J0oI8jqb6gLLl9tSwVdosWJ/AKSGJ+HwYf6Ixe4MUcEkst4uWzpVQrNOCin0fzTRQbXV8ePheU8WiiDYBw==}
 
-  hono@4.10.8:
-    resolution: {integrity: sha512-DDT0A0r6wzhe8zCGoYOmMeuGu3dyTAE40HHjwUsWFTEy5WxK1x2WDSsBPlEXgPbRIFY6miDualuUDbasPogIww==}
+  hono@4.11.8:
+    resolution: {integrity: sha512-eVkB/CYCCei7K2WElZW9yYQFWssG0DhaDhVvr7wy5jJ22K+ck8fWW0EsLpB0sITUTvPnc97+rrbQqIr5iqiy9Q==}
     engines: {node: '>=16.9.0'}
 
   hookable@5.5.3:
@@ -6497,7 +6497,7 @@ snapshots:
     dependencies:
       '@ampproject/remapping': 2.3.0
       '@babel/code-frame': 7.29.0
-      '@babel/generator': 7.29.0
+      '@babel/generator': 7.29.1
       '@babel/helper-compilation-targets': 7.28.6
       '@babel/helper-module-transforms': 7.28.6(@babel/core@7.28.3)
       '@babel/helpers': 7.28.6
@@ -6529,7 +6529,7 @@ snapshots:
       '@jridgewell/trace-mapping': 0.3.31
       jsesc: 3.1.0
 
-  '@babel/generator@7.29.0':
+  '@babel/generator@7.29.1':
     dependencies:
       '@babel/parser': 7.29.0
       '@babel/types': 7.29.0
@@ -7267,7 +7267,7 @@ snapshots:
   '@babel/traverse@7.29.0':
     dependencies:
       '@babel/code-frame': 7.29.0
-      '@babel/generator': 7.29.0
+      '@babel/generator': 7.29.1
       '@babel/helper-globals': 7.28.0
       '@babel/parser': 7.29.0
       '@babel/template': 7.28.6
@@ -7629,21 +7629,21 @@ snapshots:
       '@eslint/core': 0.17.0
       levn: 0.4.1
 
-  '@hono/node-server@1.19.9(hono@4.10.8)':
+  '@hono/node-server@1.19.9(hono@4.11.8)':
     dependencies:
-      hono: 4.10.8
+      hono: 4.11.8
 
-  '@hono/zod-openapi@1.1.6(hono@4.10.8)(zod@4.1.13)':
+  '@hono/zod-openapi@1.1.6(hono@4.11.8)(zod@4.1.13)':
     dependencies:
       '@asteasolutions/zod-to-openapi': 8.2.0(zod@4.1.13)
-      '@hono/zod-validator': 0.7.6(hono@4.10.8)(zod@4.1.13)
-      hono: 4.10.8
+      '@hono/zod-validator': 0.7.6(hono@4.11.8)(zod@4.1.13)
+      hono: 4.11.8
       openapi3-ts: 4.5.0
       zod: 4.1.13
 
-  '@hono/zod-validator@0.7.6(hono@4.10.8)(zod@4.1.13)':
+  '@hono/zod-validator@0.7.6(hono@4.11.8)(zod@4.1.13)':
     dependencies:
-      hono: 4.10.8
+      hono: 4.11.8
       zod: 4.1.13
 
   '@humanfs/core@0.19.1': {}
@@ -8435,10 +8435,10 @@ snapshots:
 
   '@scalar/helpers@0.2.9': {}
 
-  '@scalar/hono-api-reference@0.9.37(hono@4.10.8)':
+  '@scalar/hono-api-reference@0.9.37(hono@4.11.8)':
     dependencies:
       '@scalar/core': 0.3.34
-      hono: 4.10.8
+      hono: 4.11.8
 
   '@scalar/types@0.5.10':
     dependencies:
@@ -10458,7 +10458,7 @@ snapshots:
 
   hmacsha1@1.0.0: {}
 
-  hono@4.10.8: {}
+  hono@4.11.8: {}
 
   hookable@5.5.3: {}
 
